@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>EXERCÍCIO 25</title>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="page-header">EXERCÍCIO 25</h1>
+                <p>Receber valores numéricos para o dia e o mês de nascimento de uma
+                    pessoa; Exibir o signo da pessoa de acordo com os seguintes critérios:</p>
+                    <p>Áries: de 21 de março a 20 de abril;<br>
+                        Touro: de 21 de abril a 20 de maio;<br>
+                        Gêmeos: de 21 de maio a 20 de junho;<br>
+                        Câncer: de 21 de junho a 22 de julho;<br>
+                        Leão: de 23 de julho a 22 de agosto;<br>
+                        Virgem: de 23 de agosto a 22 de setembro;<br>
+                        Libra: de 23 de setembro a 22 de outubro;<br>
+                        Escorpião: de 23 de outubro a 21 de novembro;<br>
+                        Sagitário: de 22 de novembro a 21 de dezembro;<br>
+                        Capricórnio: de 22 de dezembro a 20 de janeiro;<br>
+                        Aquário: de 21 de janeiro a 18 de fevereiro;<br>
+                        Peixes: de 19 de fevereiro a 20 de março;</p>                                
+                <p>Exemplo:<br>
+                    Data de Nascimento:
+                    <span style="color: red;">29/03</span><br>
+                    Signo: Áries<br></p>                    
+            </div>
+        </div>
+        <div class="container formulario">
+            <form>                
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">Data de Nascimento:</span>
+                        <input id="inputDia" class="form-control" aria-describedby="sizing-addon1"> 
+                        <span class="input-group-addon">/</span>
+                        <input id="inputMes" class="form-control" aria-describedby="sizing-addon1">
+                    </div>                  
+                </div>
+                                                                                                                         
+                <button type="button" class="btn btn-info" onclick="verificar()">Verificar</button>
+            </form>
+        </div>
+        <br>
+        <div class="container formulario" id="form2">
+            <form>
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">Signo:</span>                
+                        <p class="form-control" id="result"></p>
+                        <span class="input-group-addon"></span>                    
+                    </div>            
+                </div>                                             
+            </form>      
+        </div>
+        <div class="jumbotron">
+            <div class="container">
+                <p>Espero que  tenha gostado! Feito por Aline Almeida ❤️</p>             
+            </div>
+        </div>
+        <script src="./script.js"></script>     
+    </body>
+</html>
